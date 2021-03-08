@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="css/style.css">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="body">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <canvas id="myChart" width="400" height="400"></canvas>
+    <input id="0" type="button" onclick="setCountries(this.id)" value="Asia"/>
+    <input id="1" type="button" onclick="setCountries(this.id)" value="Euorope"/>
+    <input id="2" type="button" onclick="setCountries(this.id)" value="Americas"/>
+    <input id="3" type="button" onclick="setCountries(this.id)" value="Africa"/>
+    <input id="4" type="button" onclick="setCountries(this.id)" value="Oceania"/>
+    <input type="button" value="data" id="btnCountry"/>
+    <select id="categories">
+
+    </select>
+   <div id="container"></div>
+ 
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <div class="text"></div>
+            <span class="close">&times;</span>
+          
+        </div>
+    </div>
+
+    <script src="js/covid.js"></script>
+   
+
+
+</body>
+</html>
